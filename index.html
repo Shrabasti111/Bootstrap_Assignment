@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Imagine Dragons</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico|Permanent+Marker&display=swap" rel="stylesheet">
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+		
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/"><img src="images/logo.jpg" alt="Your Logo"></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+										<li>
+											<a href="#">Official Merch</a>
+										</li>
+										
+										<li>
+											<a href="#">Latest News</a>									
+
+		                                </li>
+										
+										
+									</ul><!-- end dropdown-menu -->
+								
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Members<strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Dan Reynolds</a>
+									</li>
+									
+									<li>
+										<a href="#">Wayne Sermon</a>
+									</li>
+									
+									<li>
+										<a href="#">Daniel Platzman</a>
+									</li>
+
+									<li>
+										<a href="#">Ben Mckee</a>
+									</li>
+									
+									
+								</ul><!-- end dropdown-menu -->
+							</li>
+
+							<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Albums <strong class="caret"></strong></a>
+									
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Origins</a>
+										</li>
+										
+										<li>
+											<a href="#">Evolve</a>
+										</li>
+										
+										<li>
+											<a href="#">Night Visions</a>
+										</li>
+
+										<li>
+											<a href="#">Smoke + Mirrors</a>
+										</li>
+										
+										<li class="divider"></li>
+										
+										<li>
+											<a href="#">Lyrics</a>
+										</li>
+										
+										<li>
+											<a href="#">Videos</a>
+										</li>
+										
+										<li>
+											<a href="#">Audio</a>
+										</li>
+									</ul><!-- end dropdown-menu -->
+								</li>
+						</ul>
+						
+						<form class="navbar-form pull-left" id="search">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+						
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			
+			
+			<div class="carousel slide" id="myCarousel">
+
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+						<li data-slide-to="1" data-target="#myCarousel"></li>
+						<li data-slide-to="2" data-target="#myCarousel"></li>
+					</ol>
+				
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active" id="slide1">
+							
+						</div><!-- end item -->
+						
+						<div class="item" id="slide2">
+							
+						</div><!-- end item -->
+						
+						<div class="item" id="slide3">
+							
+						</div><!-- end item -->
+					</div><!-- carousel-inner -->
+					
+					<!-- Controls -->
+					<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+				
+				</div><!-- end myCarousel -->
+			
+				<div class="hero-section col-sm-12">
+
+						<img src="images/imagine.jpeg" alt="hero" id="hero">
+						
+						<h2> Find out more about Imagine Dragons</h2>
+			    </div>
+			
+	
+			
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3 id="tab-text">Check these out</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Albums</a></li>
+							<li><a href="#tab2" data-toggle="tab">Members</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<img src="images/origins.jpeg" class="album_member">
+								<img src="images/night.jpeg" class="album_member">
+								<img src="images/next.jpeg" class="album_member">
+								<img src="images/evolve.jpeg" class="album_member">
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+							    <img src="images/dan.jpeg" class="album_member">
+								<img src="images/daniel.jpeg" class="album_member">
+								<img src="images/platzman.jpeg" class="album_member">
+								<img src="images/ben.jpeg" class="album_member">	
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+				
+				<div class="col-sm-4 new-text">
+						<p class = "text_quote">"When the hour is nigh and hopelessness is sinking in and the wolves all cry to fill the night with hollering… When your eyes are red and emptiness is all you know, with the darkness fed I will be your scarecrow…"</p>
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+			
+			<hr>
+			
+			<div class="row" id="moreCourses">
+				<div class="col-sm-12">
+					<h3 id="map-text">Spot them on the map!</h3>
+					
+						<div class="col-6 map">
+							<div class = "map-responsive">
+								
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6402274.38331667!2d-121.52486107477175!3d38.41581026375099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80990aa1f8deb471%3A0xcf47038aaafc95b3!2sNevada%2C+USA!5e0!3m2!1sen!2sin!4v1562598287651!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						
+							</div><!-- end col-6 -->
+						</div>
+						<div class="col-sm-6 newsletter">
+								<h2 id="news-header">Newsletter</h2>
+								<p id="news-content">Stay informed, know about upcoming music and tours</p>
+								
+								<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+		Click Here To Subscribe....
+	  </button>
+	  
+	  <!-- Modal -->
+	  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h2 class="modal-title" id="exampleModalLabel">Newsletter</h2>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+					<p>First Name: <input class="form-control form-control-sm" type="text" placeholder="First Name"></p>
+             		<p>Last Name: <input class="form-control form-control-sm" type="text" placeholder="Last Name"></p>
+					<p>Email: <input class="form-control form-control-sm" type="text" placeholder="Email Address"></p>
+			</div>
+			<div class="modal-footer">
+			        <button type="button" class="btn btn-primary">Subscibe!</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+		</div><!-- end container -->
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h5>Copyright &copy; 2019 {Shrabasti Roy}</h5>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-6">
+						<h2>“Everybody waiting for the fall of man,
+							Everybody praying for the end of times,
+							Everybody hoping they could be the one”</h2>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h4>Navigation</h4>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h5>Follow Us</h5>
+						  <ul class="unstyled"></ul>
+							<li class="fa fa-facebook icons"></li>
+							<li class="fa fa-twitter icons"></li>
+							<li class="fa fa-youtube icons"></li>
+							<li class="fa fa-google-plus icons"></li>
+					</ul>
+					</div><!-- end col-sm-2 -->
+					
+					
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
