@@ -1,4 +1,4 @@
 This file contains the link to the website
-This website is called Pet Adoption Agency
-Author of the website: Niyati Mishra
-link to the website: https://niyati111111.github.io/Bootstrap-assn/
+This website is called Imagine Dragons
+Author of the website: Shrabasti Roy
+link to the website: https://shrabasti111.github.io/Bootstrap_Assignment/
