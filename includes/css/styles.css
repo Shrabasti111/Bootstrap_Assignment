@@ -63,6 +63,7 @@ footer {
 	top: 90px;
 	left: 40px;
 	font-family: 'Permanent Marker', cursive;
+	margin-right: 0;
 }
 
 .map {
@@ -334,6 +335,9 @@ ul.unstyled {
     width:100%;
     position:absolute;
 }
+
+
+  
 
 
 
